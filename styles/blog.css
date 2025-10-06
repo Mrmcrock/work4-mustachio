@@ -1,0 +1,67 @@
+body{
+margin: 0px;
+}
+.poller-one-regular {
+  font-family: "Poller One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.main-contents{
+display: flex;
+justify-content: center;
+}
+.content-container{
+width: 1000px;
+}
+#title{
+display: flex;
+justify-content: center;
+}
+h1#blog{
+text-align: center;
+font-size: 35px;
+background: #252525;
+text-transform: uppercase;
+color: white;
+padding: 10px 15px;
+}
+.card1, .card2, .card3{
+display: flex;
+border: 2px solid black;
+margin: 20px 0px;
+}
+.cards-content, .cards-content2, .cards-content3{
+padding: 40px 50px;
+border-left: 2px solid black;
+}
+h2{
+text-transform: uppercase;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 25px;
+font-weight: normal;
+text-align: center;
+}
+p{
+color: #252525;
+line-height: 24px;
+}
+p a{
+color: #252525;
+}
+.button-container{
+display: flex;
+justify-content: center;
+}
+button{
+background-color: black;
+color: white;
+font-family: "Arial Black", Gadget, sans-serif;
+text-transform: uppercase;
+font-size: 18px;
+font-weight: normal;
+padding: 6px 24px;
+}
+button:hover{
+background-color: white;
+color: black;
+}

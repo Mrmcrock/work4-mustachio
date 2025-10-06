@@ -1,0 +1,53 @@
+.main-content{
+display: flex;
+justify-content: center;
+}
+.main-content-about{
+width: 800px;
+}
+#title{
+display: flex;
+justify-content: center;
+}
+h1{
+text-align: center;
+font-size: 35px;
+background: #252525;
+text-transform: uppercase;
+color: white;
+padding: 10px 15px;
+}
+.text1, .text2, .text3, .text4, .text5{
+margin-bottom: 30px;
+}
+input, textarea{
+font-size: 25px;
+padding: 15px 30px;
+width: 100%;
+box-sizing: border-box;
+text-align: center;
+text-transform: uppercase;
+outline: none;
+border: 2px solid black;
+}
+textarea{
+resize: none;
+}
+.button-container{
+display: flex;
+justify-content: center;
+margin: 0px 0px 75px 0px;
+}
+button{
+background: #252525;
+color: white;
+font-size: 15px;
+text-transform: uppercase;
+padding: 15px 20px;
+font-family: "Arial Black", Gadget, sans-serif;
+}
+button:hover{
+background: white;
+color: #252525;
+cursor: pointer;
+}
